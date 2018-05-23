@@ -1,0 +1,24 @@
+{
+  "name": "gitcopy",
+  "version": "0.1.0",
+  "description": "Like forking a repo, but done in the cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vprasanth/gitcopy.git"
+  },
+  "keywords": [
+    "git",
+    "fork",
+    "copy"
+  ],
+  "author": "Prasanth Vaaheeswaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vprasanth/gitcopy/issues"
+  },
+  "homepage": "https://github.com/vprasanth/gitcopy#readme"
+}
