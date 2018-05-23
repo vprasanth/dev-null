@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vprasanth/gitcopy/issues"
   },
-  "homepage": "https://github.com/vprasanth/gitcopy#readme"
+  "homepage": "https://github.com/vprasanth/gitcopy#readme",
+  "dependencies": {
+    "args": "^4.0.0"
+  }
 }
