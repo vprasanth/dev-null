@@ -21,7 +21,7 @@ if (!flags.remoteUrl) {
 console.log(flags);
 
 async function run(options) {
-  const command = `git push ${options.remoteUrl} +refs/remotes/origin/*:refs/heads/*`;
+  const command = `git push --dry-run ${options.remoteUrl} +refs/remotes/origin/*:refs/heads/* +refs/heads/*:refs/heads/*`;
   const { stdoout, stderr } = await execPromise(command);
   console.log(stdoout);
   console.log(stderr);
